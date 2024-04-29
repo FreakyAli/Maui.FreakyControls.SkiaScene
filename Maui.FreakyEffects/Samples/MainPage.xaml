@@ -5,9 +5,13 @@
              x:DataType="page:MainViewModel"
              HeaderText="Home"
              IsContextVisible="False"
+
              IsBackButtonVisible="False"
              x:Class="Samples.MainPage">
     <ContentView x:Name="template" ControlTemplate="{StaticResource HeaderControlTemplate}">
-        <GraphicsView BackgroundColor = "Green"/>
+        <Grid RowDefinitions="Auto,*">
+            <SearchBar Grid.Row="0" Placeholder="Some search i guess" BackgroundColor="LightBlue"/>
+            <GraphicsView Grid.Row="1" BackgroundColor = "Green"/>
+        </Grid>
     </ContentView>
 </page:FreakyBaseContentPage>

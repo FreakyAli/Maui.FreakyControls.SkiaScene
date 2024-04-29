@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net8.0-ios</TargetFrameworks>
@@ -43,7 +43,8 @@
 	<ItemGroup>
 		<PackageReference Include="FreakyControls" Version="0.4.9-pre" />
 		<PackageReference Include="CommunityToolkit.Maui" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.3" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.21" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.21" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Maui.FreakyEffects\Maui.FreakyEffects.csproj" />
